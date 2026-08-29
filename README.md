@@ -146,6 +146,10 @@ To deploy, open your Enter.pro project and click "Publish"
 
 Your app will automatically build and go live at your production URL.
 
+### GitHub Pages
+
+Pushes to `main` also trigger [.github/workflows/static.yml](.github/workflows/static.yml), which builds the app with pnpm and publishes `dist/` to GitHub Pages via GitHub Actions. Make sure the repo's **Settings → Pages → Source** is set to "GitHub Actions".
+
 ---
 
 ✨ Keep prompting, keep building — Enter.pro handles the rest.
