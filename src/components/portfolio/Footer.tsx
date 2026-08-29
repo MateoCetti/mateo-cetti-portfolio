@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Download, Github } from "lucide-react";
+import { Github } from "lucide-react";
 import { profile } from "@/data/portfolio";
 
 export const Footer = () => {
@@ -16,14 +16,6 @@ export const Footer = () => {
           <p className="hidden font-mono text-xs text-muted-foreground sm:block">
             {t("footer.built")}
           </p>
-          <a
-            href={`${import.meta.env.BASE_URL}mateo-cetti-portfolio.zip`}
-            download
-            className="inline-flex items-center gap-1.5 font-mono text-xs text-muted-foreground transition-colors hover:text-primary"
-          >
-            <Download className="size-4" />
-            {t("footer.downloadSource")}
-          </a>
           <a
             href={profile.githubUrl}
             target="_blank"

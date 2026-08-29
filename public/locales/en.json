@@ -56,7 +56,6 @@
   "contact.githubCta": "GitHub",
   "footer.rights": "© {{year}} Mateo Cetti — Software Developer",
   "footer.built": "Built with React, TypeScript & Tailwind CSS",
-  "footer.downloadSource": "Download source code",
   "notFound.title": "Oops! Page not found",
   "notFound.actions.backHome": "Return to Home"
 }
