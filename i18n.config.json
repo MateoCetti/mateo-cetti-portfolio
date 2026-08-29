@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "fallbackLng": "en",
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "detect": ["en"],
+      "dir": "ltr"
+    },
+    {
+      "code": "es",
+      "label": "Español",
+      "detect": ["es", "es-AR", "es-ES"],
+      "dir": "ltr"
+    }
+  ]
+}
